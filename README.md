@@ -88,7 +88,9 @@ Rosalind Love is preparing the edition and translation of all of Folcard’s tex
 
 # Replicability
 
-The given code is open access and free to use. Most of the texts used for the purposes of this chapter, however, were OCR'd from copright-protected publications and cannot be shared freely. Prior to analysis the Latin texts were transformed to adopt the same formatting norms so as to allow a reliable basis for comparison. Irrelevant material is removed and the divergent orthographical forms due to various manuscript witnesses or editorial practices are normalized, such as such as \<j\>’s to \<i\>’s, \<v\>’s to \<u\>’s, \<ae\>’s to \<e\>’s, etc.
+The given code is open access and free to use. Most of the texts used for the purposes of this chapter, however, were OCR'd from copright-protected editions and publications and cannot be shared freely. 
+
+Computer-readable versions of texts ascribed to Goscelin were found in various academic publications, such as the AASS, scholarly editions, or individual articles. Prior to analysis the Latin texts were transformed to adopt the same formatting norms so as to allow a reliable basis for comparison. Varying orthographical conventions (e.g. quamdiu–quandiu, nihil–nichil, ...) or any textual and symbolic material that could disrupt the stylometric analysis had to be attended to and automatically edited (‘preprocessing’). It also entails case-folding (substituting upper case letters for lower case ones) and the removal of chapter headings, citation indices, annotations, marginal notes, numerals, and punctuation.
 
 # Code and Visualizations
 
@@ -99,8 +101,6 @@ The code above is written in [Python 3](https://www.python.org/downloads/release
 I am grateful to Moreed Arbabzadah, Jeroen Deploige, Rosalind Love, Elizabeth Tyler, Liesbeth van Houts, Wim Verbaal, the Medieval Feedback Group at Ghent’s Department of History, and the anonymous peer reviewers for having generously helped me reflect on the research presented in this chapter. My indebtedness goes out to the FWO (Research Foundation – Flanders) for supporting the project ‘Cross-Channel Stylistic Exchanges. A Stylometric Approach to the Impact of Mobility and Multilingualism on Medieval Latin Literature, 1000–1150’ of which this chapter is a result.
 
 # References
-
-**Bibliography**
 
 **Primary Sources**\
 Barlow, F. (ed). *The Life of King Edward who Rests at Westminster Attributed to a Monk of Saint-Bertin*, 2nd edn (Oxford, Clarendon Press, 1992).\
