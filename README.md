@@ -9,7 +9,9 @@ This chapter explores how stylometry—the computational method for quantifying 
 # Corpus
 
 Em dash (‘—’) indicates the information is not applicable, unknown or missing.
-The colours in the far left column give an indication of the degree of certainty by which the text is attributed to Goscelin in the current state of the art (see legend below)—although each have their own specifics and nuances which cannot be addressed here in full.
+The colours in the far left column give an indication of the degree of certainty by which the text is attributed to Goscelin in the current state of the art (see legend below)—although each have their own specifics and nuances which cannot be addressed here in full.\
+
+While making this list, I was able to build especially on the scholarship of Rosalind Love, who gives a very recent state of the art in ‘Goscelinus Sancti Bertini monachus’ (see References). Although I lack the space here to cite them all individually, I also owe much to the publications of (roughly chronologically) Mario Esposito, André Wilmart, Charles H. Talbot, Frank Barlow, Marvin L. Colker, Thomas J. Hamilton, Richard Sharpe, Tom Licence, Beatrix Agnes Blokhuis, and Elizabeth Tyler.
 
 ***
 🟩 Certain &ensp; 
@@ -88,7 +90,7 @@ Rosalind Love is preparing the edition and translation of all of Folcard’s tex
 
 # Replicability
 
-The given code is open access and free to use. Most of the texts used for the purposes of this chapter, however, were OCR'd from copright-protected editions and publications and cannot be shared freely. 
+The given code is open access and free to use. Most of the texts used for the purposes of this chapter, however, were OCR'd from copright-protected editions and publications and cannot be shared freely.\
 
 Computer-readable versions of texts ascribed to Goscelin were found in various academic publications, such as the AASS, scholarly editions, or individual articles. Prior to analysis the Latin texts were transformed to adopt the same formatting norms so as to allow a reliable basis for comparison. Varying orthographical conventions (e.g. quamdiu–quandiu, nihil–nichil, ...) or any textual and symbolic material that could disrupt the stylometric analysis had to be attended to and automatically edited (‘preprocessing’). It also entails case-folding (substituting upper case letters for lower case ones) and the removal of chapter headings, citation indices, annotations, marginal notes, numerals, and punctuation.
 
